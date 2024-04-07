@@ -1,6 +1,6 @@
 **Reddit Data Engineering Project**
 
-This project showcases my proficiency in data engineering, orchestrating the extraction, analysis, 
+This project showcases my proficiency in data engineering, orchestrating the extraction, manipulation, 
 and storage of Reddit data seamlessly through Docker containers and Apache Airflow.
 
 **Key Features:**
