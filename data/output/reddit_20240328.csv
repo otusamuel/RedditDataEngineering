@@ -1,0 +1,292 @@
+id,title,score,num_comments,author,created_utc,selftext,url,sentiments
+1bp335j,Airflow homies be like...,117,15,JoeyWeinaFingas,2024-03-27 14:22:09,,https://i.redd.it/figwno4pyvqc1.png,0.0
+1borix1,History of questions asked on stack over flow from 2008-2024,62,35,Fraiz24,2024-03-27 02:59:57,"This is my first time attempting to tie in an API and some cloud work to an ETL. I am trying to broaden my horizon. I think my main thing I learned is making my python script more functional, instead of one LONG script.
+
+My goal here is to show a basic Progression and degression of questions asked on programming languages on stack overflow. This shows how much programmers, developers and your day to day John Q relied on this site for information in the 2000's, 2010's and early 2020's. There is a drastic drop off in inquiries in the past 2-3 years with the creation and public availability to AI like ChatGPT, Microsoft Copilot and others.
+
+I have written a python script to connect to kaggles API, place the flat file into an AWS S3 bucket. This then loads into my Snowflake DB, from there I'm loading this into PowerBI to create a basic visualization. I chose Python and SQL cluster column charts at the top, as this is what I used and probably the two most common languages used among DE's and Analysts.",https://www.reddit.com/gallery/1borix1,0.6597
+1bp4d61,From DA to DE unintentionally ,34,35,Unlikely_Associate_2,2024-03-27 15:16:08,"So long story short I got hired as a Data Analyst and my manager said they’re changing my role to a Data Engineer. 
+
+I’m slightly freaking out because I feel like I’m not ready or I don’t know anything. The team is super nice and helpful and so is my manager, but the fact that I’m still in school pursuing my masters on top of it makes me feel nervous. 
+
+I feel like I don’t know the first thing about being a DE so I’m constantly on YouTube just watching videos.
+
+Any advice to help me calm down?",https://www.reddit.com/r/dataengineering/comments/1bp4d61/from_da_to_de_unintentionally/,0.9184
+1bp1pea,Data Engineer to LLM,20,18,Electrical-Grade2960,2024-03-27 13:20:20,"Has anyone moved away from DE to AI - more specific to learning about LLM’s and all the craze about AI. How was it? Share your experiences and path if possible.
+
+",https://www.reddit.com/r/dataengineering/comments/1bp1pea/data_engineer_to_llm/,0.1531
+1bpcmcc,Is Meltano dead?,15,6,renec112,2024-03-27 20:49:41,"I see a huge potential with Meltano. Having used it on a few projects my experience is:
+
+* It's quite slow.
+* important packages are barely maintained anymore
+
+A lot of the packages I need(dagster, evidence) is owned by private repos that are outdated with readmes that no longer work.
+
+What's your opinion? I feel like the project is on a trajectory to die out, but I would hate to see it happen",https://www.reddit.com/r/dataengineering/comments/1bpcmcc/is_meltano_dead/,-0.732
+1box4an,What are some interesting problems in DE?,14,13,Jazzlike-Cucumber653,2024-03-27 08:45:21,"I'm looking for a fun side project but want to be sure I'm solving a real problem.
+
+What sort of stuff is getting in your way in DE and how do you go about fixing it now?",https://www.reddit.com/r/dataengineering/comments/1box4an/what_are_some_interesting_problems_in_de/,0.6249
+1bonpws,Does anyone do anything with NFC and/or RFID?,7,3,DuckDatum,2024-03-27 00:08:05,"Do any of you guys work in a niche that lets you play with programming / reading from RFIDs or using the NFC protocol in order to collect, transmit, or store data? How about physical sensors?
+
+I’m curious what flavor of data engineering you typically enjoy on a dataly basis. I have been reading about these little things and they’re pretty cool. I just bought a BuildYourOwn light sensor kit online, gonna play around with it here soon.
+
+What do you use them for, personally and professionally (if you’re allowed to share)?",https://www.reddit.com/r/dataengineering/comments/1bonpws/does_anyone_do_anything_with_nfc_andor_rfid/,0.8722
+1boyiuc,Database - where to start?,8,15,speedy217,2024-03-27 10:25:32,"
+Hi, r/dataengineering,
+
+I recently started as a data analyst in a company that doesn’t have any data / IT department, so im pretty much on my own.
+
+We get data from different sources through API’s. I have mainly used R to pull down the data with these.
+
+My boss wants to have a database at some point, which stores all the data from our different sources, so we can extract the data from there.
+
+I have been given time to look into possible solutions, as they know I dont have experience with this. What would be the best solution in this case? Cloud based? External? Is it possible to build databases with data through API’s?
+
+A bit of info:
+- Four different data sources at the moment (all with paid API’s).
+- New data daily (some thousand observations every day).
+- The company wont hire more people to the data department in the near future.
+- Only a few people will extract data from the database
+- Use case is to connect the database to visualization tools to automate
+
+Where to start?",https://www.reddit.com/r/dataengineering/comments/1boyiuc/database_where_to_start/,0.9125
+1bpgbpu,"Subqueries vs CTE, what’s your preference?",5,10,AMDataLake,2024-03-27 23:20:21,"I heard people constantly decry subqueries for making queries unreadable or decry CTEs for making queries slow (depending on the DB).
+
+How do you feel about this?",https://www.reddit.com/r/dataengineering/comments/1bpgbpu/subqueries_vs_cte_whats_your_preference/,0.0
+1bp1nzs,Separate Kafka producers and topics for getting data for analytics?,3,1,Strange_Upstairs9456,2024-03-27 13:18:29,"Hello everyone! 
+
+We are tasked with getting data for the purpose of analytics and reporting from an application created in-house. The application uses Kafka for messaging between microservices. 
+
+We are thinking of creating a separate set of producers (triggered by user or business actions that are likely different from operational ones) and topics for the purpose of getting data. 
+
+Is this a good idea? Is there a better way to do this? The application does not have a strong data backend, so Kafka is being considered as a potentially easier way to get data accessibility.
+
+Thanks in advance!",https://www.reddit.com/r/dataengineering/comments/1bp1nzs/separate_kafka_producers_and_topics_for_getting/,0.9248
+1bp1bf9,Globally available database ,3,3,joyhotline,2024-03-27 13:02:00,"Hi, I’m trying to find a solution to make a database available globally. As if now we are using mongo, there is the option of replicating and sharding mongo but that would require both time and money. 
+
+Are there other easier options available for having document based data, I have been reading about scyllaDb, do you guys think it would be a good option? 
+
+The use case is mainly for games with over 5 million users. ",https://www.reddit.com/r/dataengineering/comments/1bp1bf9/globally_available_database/,0.8481
+1bpgecu,"Starting my career as fullstack(java/react) or Data integration(Boomi, Talend ...) for a Data Engineer career",2,0,Wooden-Hovercraft-51,2024-03-27 23:23:25,"
+Hello guys,
+
+I hope that senior people or people who were in same position can help me to take the decision.
+
+I am a Master Software engineer graduate and I did internships in Data Engineering ( Airflow, Python, SQL...). After I graduated I didn't find a proper data engineer role so I have two offers now.
+Starting my career as a full stack engineer (Java/React) or Data Integration role( Boomi, Talend ...) .
+
+I know that using ETL GUI tools are not good in general and I don't like web developement a lot but which role is more relevant to me as I want to be a data engineer in the future and immigrate to Europe because data engineers roles are rare in my country.
+
+Thank you in advance.
+",https://www.reddit.com/r/dataengineering/comments/1bpgecu/starting_my_career_as_fullstackjavareact_or_data/,0.6419
+1bp7bdr,Examples of documentation you like working with?,2,1,itty-bitty-birdy-tb,2024-03-27 17:16:46,"Hey all! I want to improve our company's docs, and I'd like to find examples of data tool documentation that DEs really like.
+
+A couple I've seen mentioned on this sub:
+
+\- [GitLab Data Wiki](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/)  
+\- [Snowflake docs](https://docs.snowflake.com/en/)
+
+To be clear, I'm am **NOT** asking how you build good documentation. I've found several threads on this sub that answer that question.  
+
+
+I **am** asking what documentation you like working with and what you like about it.  
+
+
+Cheers!",https://www.reddit.com/r/dataengineering/comments/1bp7bdr/examples_of_documentation_you_like_working_with/,0.9656
+1bp6rbk,Enterprise vs startup internship which one carry more weight?,2,6,toltakbo,2024-03-27 16:54:16,"I'm graduating this year with a computer science degree, and our internship program is starting soon. As an aspiring full-stack developer, I have experience in both frontend and backend development, along with a background in mathematics. Building full-stack web applications is my passion.
+
+I've fortunately received three internship offers so far:
+
+* Data Engineering role at an enterprise company (tech stack: Python, SQL, AWS)
+* Web development position at two startups (JavaScript, TypeScript, Python, Node.js, AWS)
+
+Which one is the best one to pursue to have the best career? should I pursue an enterprise that is offering me a data engineering role, or a web development that I love from a startup? Will it affect my web dev career in the future if I chose data engineering? I am overthinking a lot as I am thinking that this could mess up my career in the future. Will data engineering internship help my career in my full stack career in anyway? ",https://www.reddit.com/r/dataengineering/comments/1bp6rbk/enterprise_vs_startup_internship_which_one_carry/,0.9569
+1bp6pjv,How do I change the data type in a Glue Crawler?,2,1,jumpfordespair,2024-03-27 16:52:16," I have some data from parquet files that are in my S3 bucket that we use AWS Glue to crawl to Athena. The problem is, the parquet files data types don’t match the data types we have in our SQL server database. For example, one column is “program\_code” and in SQL server the data type is char” but in our parquet file it is “int64” and in Athena it is “bigint”. I want to change it from “bigint” to “char”
+
+I tried changing the data type in the data catalog table in Glue but it would always revert back to the data type we have when I re run the glue crawler which we have to run every day. How can I change the data type permanently in Athena?",https://www.reddit.com/r/dataengineering/comments/1bp6pjv/how_do_i_change_the_data_type_in_a_glue_crawler/,-0.1027
+1bp60ft,Is the availability of too many tools an issue??,2,1,trafalgar28,2024-03-27 16:24:05,"I recently got to know from few DE regarding the issue with the availability of too many tools out there. Often times when working on a project, in the initial phase most of the time goes into choosing which tools to use. There are so many good tools out there and eventually becomes hard to choose. 
+
+And I got to know about this from few really smart/experienced DE. I was wondering if you all have faced this issue? And if yes how are you all dealing with it!",https://www.reddit.com/r/dataengineering/comments/1bp60ft/is_the_availability_of_too_many_tools_an_issue/,0.6975
+1bp5bev,"Edginary - Your Data, Globally.",2,0,coolabs,2024-03-27 15:55:56,"Hey Engineers,
+
+We're thrilled to introduce you to [Edginary](https://www.edginary.io/), a new groundbreaking approach set to change how developers access and scale their data globally. We've all felt the pain points of dealing with centralized data sources: performance bottlenecks, reliability issues, and the dreaded revenue loss due to downtime. Edginary is here to tackle these issues head-on.
+
+[Edginary](https://www.edginary.io/) is a serverless platform that moves your data close to your users in real-time so they can access it in ultra low-latency. By reducing the load on your servers and databases, we aim to not only improve performance and reliability but also save you money.
+
+**How it works:**
+
+Edginary pulls data from various sources like databases, data lakes, and data warehouses using Change Data Capture (CDC) or periodic polling mechanisms. This ensures up-to-date data ingestion in real-time or near-real-time.
+
+Once the data is captured, Edginary enables users to combine, transform and aggregate it using its own internal real-time transformation engine. It supports Streaming SQL, with future plans to incorporate WebAssembly and TypeScript.
+
+After processing, the processed data is replicated to hundreds of nodes around the world, stored and indexed in a low-latency datastore, queryable using REST API with millisecond response time globally.
+
+**Join Our Beta:**
+
+We're opening up our closed [Beta](https://www.edginary.io/beta)! It's a fantastic opportunity for you to get early access and see how Edginary can revolutionize your work with data. Visit our [web](https://www.edginary.io/) and be part of this exciting journey with us.",https://www.reddit.com/r/dataengineering/comments/1bp5bev/edginary_your_data_globally/,0.9716
+1bp36tt,"First DE project, help deciding on infrastructure (Prefect/Dagster/Others?)",2,3,butterflavoredsalt,2024-03-27 14:26:36,"Hello, I'm setting up my first DE project in my homelab and trying to figure out what software to use for my infrastructure. I'm the only one working on this project part time, so I want something powerful enough to make me efficient building this out, but not so overly complex that it takes a lifetime for me to setup. My project at this point is pretty simple, mainly collecting data from APIs, doing some cleaning and calculations on it, and storing it in Postgres database. I'll also have some Anvil dashboards to view the data.
+
+I'm running this from a single linux server at home and would prefer keeping most of this self-hosted with docker containers. I've set up and started using Prefect for orchestration and like it so far but it seems that it doesn't play nice with classes and OOP. That's not a deal breaker for me, other than I've been trying to push myself to write more OOP since I tend to think of things in more of a procedural way (and maybe procedural is best here?). I do like how Prefect pulls from my Github account so updating my scripts is very easy.
+
+I'm also looking at Dagster, as it looks pretty nice but I've seen the learning curve is steep. Not a problem if that is going to pay dividends in time savings later, but I don't want to introduce unnecessary complexity.
+
+In my software stack, is there anything else I should be adding? I've seen DBT quite a bit, but not sure if it that will help me or just be even more complexity I don't need. Thanks for the tips!",https://www.reddit.com/r/dataengineering/comments/1bp36tt/first_de_project_help_deciding_on_infrastructure/,0.9776
+1bp1g5r,"Variant VS JSON: a new data type 8 times faster, good fit for semi-structured data analysis",2,0,ApacheDoris,2024-03-27 13:08:08,,https://doris.apache.org/blog/variant-in-apache-doris-2.1,0.0
+1bowx4x,Naming conventions in BigQuery ,2,9,TheCubeNL,2024-03-27 08:30:45,"I've had the opportunity to rebuild our entire data warehouse on BigQuery. My predecessor did some work in BigQuery and while everything functioned he did it in such a way that wasn't really scalable (no dbt/dataform, everything with just schedueled queries). While I think I did a pretty good job in general, I'm not to sure if my naming scheme for the datasets I've created makes a lot of sense. Tables and views are whatever, since their naming is primarily based on the dataset they belong to.
+
+So what I have done is the following:
+staging_source_name is where I have incremental tables that store historical data.
+
+ids_ source_name is where I do some cleaning and SCD2.
+
+dm_ is where I have domain specific tables that form the basis for most queries that are used for reporting.
+
+reporting_ for tables/views that are used 1:1 in reports and dashboards
+
+I think the general idea is fine, but my naming scheme might need an update so that if I leave in a couple of years my successor doesn't get confused. Especially the ids naming doesn't seem to be common, but this is what it looked like at a previous employer and I just went with it. In more modern terms it would be the silver layer I think?
+
+How do you guys name your datasets and keep it scalable?
+",https://www.reddit.com/r/dataengineering/comments/1bowx4x/naming_conventions_in_bigquery/,0.9017
+1boty8g,AWS data engineering or...? ,2,2,olu_femi,2024-03-27 05:09:20,"I'm just starting out trying to learn data engineering but confused on the route to go. 
+Should i just go through the AWS route (that is taking the SAA & then Data Engineering certification) or learning these individual tools (as described on awesomedataengineering.com)?",https://www.reddit.com/r/dataengineering/comments/1boty8g/aws_data_engineering_or/,-0.4497
+1bpduw3,"Index Roundup- Search at DoorDash, Small language models at Swiggy and more",1,0,julie-m-2010,2024-03-27 21:39:36,"Hey! We're introducing a roundup of engineering blogs, research and talks for engineers in search and AI. The first edition of the newsletter can be found here: [https://index.rockset.com/p/index-roundup](https://index.rockset.com/p/index-roundup)
+
+We're covering the following search and AI news:  
+\- DoorDash's new search engine: DoorDash's move from Elasticsearch to an in-house search engine using Apache Lucene. Reasons for the new architecture include challenges with the document-replication model and modeling complex relationships between items and stores.  
+\- Using small language models to improve search relevance at Swiggy: How Swiggy adopted a two-stage fine-tuning approach to matching search terms to local dishes from restaurants in India.  
+\- RAFT for adding domain-specific knowledge to language models: A new approach to adding domain-specific knowledge to language models for improved relevance.  
+\- Evaluating GenAI products at LinkedIn: Real-life case studies from LinkedIn on how GenAI products are evaluating using human reviews, in-product feedback and product usage metrics.  
+
+
+Why a ""new"" newsletter?  
+The availability and accessibility of AI models introduces new ways and means of building search and personalization systems. The goal of the newsletter is to aggregate and explain how new technologies are being adopted, share best practices from engineers and discuss design tradeoffs. The newsletter is technology agnostic featuring open-source tools, in-house infra and serverless technologies. We want this newsletter to be rooted in the community and would welcome feedback, articles to share and best practices for any engineer jumping into the search space.",https://www.reddit.com/r/dataengineering/comments/1bpduw3/index_roundup_search_at_doordash_small_language/,0.9709
+1bpaz4b,Open Data Lakehouse Evolution: Powering the Future with YugabyteDB & Apache Hudi,1,0,No_Elephant_1098,2024-03-27 19:44:16,[https://www.yugabyte.com/blog/apache-hudi-data-lakehouse-integration/](https://www.yugabyte.com/blog/apache-hudi-data-lakehouse-integration/),https://www.reddit.com/r/dataengineering/comments/1bpaz4b/open_data_lakehouse_evolution_powering_the_future/,0.0
+1bpalf6,Blockchain Decentralisation,0,2,kali-jag,2024-03-27 19:28:34,"Hi folks,
+
+So generally, on viewing a few youtube videos on blockchain, 
+I got following insights
+
+1. It is decentralised, That is, it's does not contain a single centralised system where all data is stored
+
+2. Every user in a block chain network, has copy of all the blocks, which they can decipher if they have the right key
+
+Questions:
+1. Here Network is not a centralised Storage or Is it like a Kafka Topic from which the consumers(here users) consume
+
+2. When users are decipher or accessing the blocks, where are they storing it? Like in their phones or other devices via  some network provided app/software which runs on the said device?
+
+3. What happens if a network fails?
+
+Thanks in Advance....",https://www.reddit.com/r/dataengineering/comments/1bpalf6/blockchain_decentralisation/,-0.2824
+1bp7eft,Do you have to decompress Avro before using it?,1,2,rental_car_abuse,2024-03-27 17:20:14,"I haven't used Avro before and considering it for something. I read that Avro does not have built-in compression like Parquet, so we have to first decompress Avro before using it. Is that right? Does it mean that Avro negatively affects performence because of cost of decompression before loading it?",https://www.reddit.com/r/dataengineering/comments/1bp7eft/do_you_have_to_decompress_avro_before_using_it/,0.4329
+1bp604p,DE Hybrid Role Projects,1,0,External_Split_1920,2024-03-27 16:23:43,"I want to build some cool stuff, just for the fun of it. DE is interesting and pays the bills but there's a different type of satisfaction building something brick by brick, or getting some cool answers out your data.
+
+&#x200B;
+
+Looking for DE projects ideas that also some other specialities to do something with the data. Maybe some visualisation using analytical tools, some spatial data, displaying the data in an interactive front end. I've actually got a fair bit of expereince in Front End as I originally took this path, built a few basic sites/apps in HTML CSS JS and React before deciding to go for DE professionally.  
+
+
+Any one got any suggestions? Looking to find the joy in programming cause I'm currently a bit of an SQL monkey trying make sense of huge totally undocumented data sets every day in my role currently.",https://www.reddit.com/r/dataengineering/comments/1bp604p/de_hybrid_role_projects/,0.9709
+1bp4iv6,Feel Like Learning is Limited / Pigeon Holed,1,1,EvilDrCoconut,2024-03-27 15:22:44,"I am asking others how they feel, if they experienced similar, if their first major job kinda feels like a bottleneck at times. My first job big job is a junior DE now hitting where I feel very comfortable pushing myself to and have achieved more of a mid-level dev role.
+
+I have been excited to try and push myself, and see where there are areas that could use work (code needs rewriting, better documentation, procedure issues) and have been put on other projects. But I don't feel I am gaining any experience with certain tech I want to gain actual industry experience with (Jenkins/Airflow/Kubrenetes).
+
+While I use them, the procedures and servers are kinda already set up and not needed to be worked on as its a large corp with established roles / code base. I don't mind the pigeon hole to an extent, but feel I can easily get cut out from some of this stuff that feels important to know beyond ""playground"" level.
+
+What would others do or feel of this?",https://www.reddit.com/r/dataengineering/comments/1bp4iv6/feel_like_learning_is_limited_pigeon_holed/,0.9171
+1bp39mt,How does your team indicate data completeness in object storage?,1,1,prequel_co,2024-03-27 14:30:04,"In scenarios involving data writes to object storage, without utilizing formats like Iceberg, Delta Lake, or Hudi—which offer transactional support—how does your team signal to downstream processes that the data load is complete? Do you use a commit/manifest file, or perhaps leverage streaming ingestion directly from the bucket? Mostly curious approaches the community has tried and went well or didn't about the approach.",https://www.reddit.com/r/dataengineering/comments/1bp39mt/how_does_your_team_indicate_data_completeness_in/,0.3919
+1box1jy,Automating the dev environment on Azure Databricks working with a dbt project,1,0,FlatBranch1570,2024-03-27 08:39:46,"Hey, I'm a former software engineer and fresh data engineer, and I'm kind of losing my mind when I see all the manual steps we take in DE. I knew the DE domain was less mature than SE but I didn't expect such a big fallback. My new team is pretty ""young"" technically, I'm the only technical person, so I thought it explained it all. But the more I search for answers on the Internet, the less confident I am that there are viable solutions out there.
+
+We don't have a test environment at all, but we do manual tests using Databricks (eg checking that the number of rows doesn't explode after a change in the relationships). What really annoys me the most is having to create all our tables in the Databricks environment manually.
+
+So basically, I would type my dbt run command, see it complains about one missing table, go create it in my notebook with a simple ""create table foo as select from source.foo"", then rinse and repeat for 15/20 times (or I'd crawl our files to find all the needed table but I find it even more annoying).
+
+Isn't there a simpler, automated solution for this?",https://www.reddit.com/r/dataengineering/comments/1box1jy/automating_the_dev_environment_on_azure/,0.8928
+1bosbx8,"Looking for software/app for data entry, organization",1,2,fuzzywuzzy029,2024-03-27 03:39:26,"I am looking for software that can help me with collecting and organizing data for research. 
+
+The data I am collecting can be grouped in 3. Patient information, implant information, follow up information. I would like all the implant and followup information linked to the patient. The issue I am having with doing this in excel, is that I have one patient, but I could have multiple implants with multiple descriptive values that I would like to sort/filter/group by as well as multiple follow up dates with their own multiple descriptive values that I would like to be able to sort/filter by. So for example, John Doe might come in for one implant. The location, implant type, date of placement, timing, augmentation of that implant would be recorded for that implant. He might come in a year later to get another implant and I would need the same information on that implant. Then the patient might come back a year later for a check up, and I would need to get information regarding that appointment like the time difference between the placement of implant 1 and implant 2, the xrays that may or may not have been taken of implant 1 or 2 and other data pertaining to those 2 implants. I would like to have the implants and the follow up visits linked to that specific patient. I would also like to be able to filter/sort by the information in each category, patient, implant or follow up, like gender or the amount of time that has elapsed since the placement of the implant. Is there a program that makes this easy or am I going to have to use excel and have 3 worksheets where I have patient ID and information in worksheet 1, multiple patient IDs to link multiple implants in worksheet 2 and multiple patient IDs  to link multiple visits?
+
+So in a list format, it would be like this:
+
+Patient Name > Age, Gender
+
+Implant #4 > date of placement, surface type, etc
+
+Implant #5 > date, surface, etc
+
+Follow up #1 on date > Implant #4 > time elapsed since initial placement, etc, etc
+
+\> Implant #5 > time elapsed since initial placement, etc, etc
+
+Follow up #2 on date > Implant #4 > etc
+
+Follow up #3 on date > Implant #5 > etc
+
+The implant(s) would be linked to each unique patient. The follow up visit(s) linked to each unique patient. I would be able to search for ""only 28 weeks or more"" or surface A. Any suggestions on how to get this done?",https://www.reddit.com/r/dataengineering/comments/1bosbx8/looking_for_softwareapp_for_data_entry/,0.9928
+1bp4k0t,Need advice for taking Prashant Kumar Pandey's Kafka/Spark courses on Udemy,0,1,Jealous-Bat-7812,2024-03-27 15:24:07,"Guys,
+
+&#x200B;
+
+Has anyone taken this guy's house from Udemy?
+
+[https://www.udemy.com/user/prashant-kumar-pandey-13/](https://www.udemy.com/user/prashant-kumar-pandey-13/)
+
+I’ve read the reviews, but I trust you guys more than those reviews!",https://www.reddit.com/r/dataengineering/comments/1bp4k0t/need_advice_for_taking_prashant_kumar_pandeys/,0.6948
+1bonmf4,How can I reorganize my football data for Social Network Analysis? ,0,2,Darktrader21,2024-03-27 00:04:06,"Hello, I'm doing a project on football data to detect the most related players in the match based on the passes played. And how those players contribute to the formation.
+
+The data I have include the playername, x and y coordinates of the pass, end x and end y coordinates of the pass, receiver, I also have data based on the angle of the pass, chipped or not, and I can calculate the Euclidean distance of the pass bases on its coordinates. 
+
+My professor told me to do this SNA making the players as nodes and the passes as edges, he also insisted on the passes to be weighted
+
+This is my first time doing a SNA, my problem is mainly how can I conduct the dataframe.
+Should the columns be exactly the data I stated above?
+
+I was considering also using multiple passes from multiple players in each row, for example player A passed the ball to B which again passed to A which finally passed to C where the ball was intercepted.
+
+But I have no idea how can I organize this in my dataframe, what should the shape of my data be? 
+
+Can anybody provide some tips, I would be really thankful 🙏
+",https://www.reddit.com/r/dataengineering/comments/1bonmf4/how_can_i_reorganize_my_football_data_for_social/,0.5993
+1bp3am2,5 Exclusive Soft Skill Lessons You Can Learn From Senior Data Engineers,0,3,ivanovyordan,2024-03-27 14:31:11,,https://open.substack.com/pub/datagibberish/p/5-senior-datata-engieering-lessons?r=odlo3&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true,0.0
+1bpfaox,need advice,0,3,Ashamed-Illustrator9,2024-03-27 22:37:41,"Hello, I have been an engineer responsible for machining for 2-3 years. I really enjoy making production analyzes and updating large Excel data with the help of Powerbi. That's why I received a 90-hour introductory training in data science and I want to improve myself in this field. Do the production field and this data science business intersect at some point? Or do I need to make a career change?",https://www.reddit.com/r/dataengineering/comments/1bpfaox/need_advice/,0.9331
+1bp1kik,How to convert csv to ORC on Windows?,0,7,rental_car_abuse,2024-03-27 13:13:52,"Hi, so I'm doing benchmarking on a sample data in csv, and for that purpose I convert them into different file formats to see how much storage space they take up and how they behave. I managed to convert csv into Parquet and Avro using Python libraries, but I can't seem to make ORC conversion work :( I tried with pyarrows but apprantly it doesn't work on Windows. When I try with pyorc library I get the following error:
+
+    Traceback (most recent call last):
+      File ""c:\Projects\big-data-file-formats\scipt_orc.py"", line 11, in <module>
+        with pyorc.Writer('dummy_data.orc', schema='struct<ID:int, Name:string, Age:int, Email:string, Address:string>') as writer:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File ""C:\Users\szymk\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyorc\writer.py"", line 37, in __init__
+        schema = TypeDescription.from_string(schema)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File ""C:\Users\szymk\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyorc\typedescription.py"", line 52, in from_string
+        return _schema_from_string(schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ValueError: Missing field name.
+    PS C:\Projects\big-data-file-formats
+
+But my schema seems okay, here is my csv:
+
+&#x200B;
+
+|ID|Name|Age|Email|Address|
+|:-|:-|:-|:-|:-|
+|34389|David Black|74|chloe76@example.net|511 Gonzalez Shore|
+
+And here is my code:
+
+    import pandas as pd
+    import pyorc
+    
+    # Load the CSV file using pandas
+    df = pd.read_csv('dummy_data.csv')
+    
+    # Convert the DataFrame to a list of dictionaries
+    data = df.to_dict(orient='records')
+    
+    # Write the data to the ORC file using pyorc
+    with pyorc.Writer('dummy_data.orc', schema='struct<ID:int, Name:string, Age:int, Email:string, Address:string>') as writer:
+        for row in data:
+            writer.write(row)
+
+How do you convert to ORC?",https://www.reddit.com/r/dataengineering/comments/1bp1kik/how_to_convert_csv_to_orc_on_windows/,-0.8338
+1bp0w76,How I use Gen AI as a Data Engineer,0,0,blakewarburtonc,2024-03-27 12:41:18,,https://towardsdatascience.com/how-i-use-gen-ai-as-a-data-engineer-6a686a921c7b,0.0
